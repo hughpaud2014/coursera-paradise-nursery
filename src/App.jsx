@@ -11,7 +11,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router>
+      <Router basename="corsera-paradise-nursery">
         <CartProvider>
           <Routes>
             <Route path="/" element={<LandingPage />} />
