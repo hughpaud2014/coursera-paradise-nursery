@@ -1,0 +1,183 @@
+/* Base styles for the landing page */
+/*html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}*/
+
+/*.landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-image: url('https://via.placeholder.com/1920x1080');*/ /* Placeholder image */
+    /*background-size: cover;*/ /* Ensures the image covers the entire container */
+    /*background-position: center;*/ /* Centers the image */
+    /*background-repeat: no-repeat;*/ /* Prevents the image from repeating */
+/*}*/
+
+/* Responsive typography */
+/*h1 {
+    font-size: 2.5rem;
+    margin: 0.5em 0;
+    color: #fff;*/ /* Example text color for contrast */
+/*}*/
+
+/*p {
+    font-size: 1.25rem;
+    margin: 0.5em 0;
+    max-width: 600px;
+    color: #fff;*/ /* Example text color for contrast */
+/*}*/
+
+/* Media queries for responsiveness */
+/*@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+}*/
+
+/*@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 0.875rem;
+    }
+}*/
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fullscreen Centering */
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #4A4A4A;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Header Styling */
+  .header {
+    width: 100%;
+    background-color: #2E7D32;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Content Styling */
+  .content {
+    max-width: 600px; /* Ensures it doesn’t stretch too wide on larger screens */
+    padding-top: 5rem; /* Pushes content below the fixed header */
+  }
+  
+  /* Responsive Typography */
+  .content h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .content p {
+    font-size: 1rem;
+    color: #cccccc;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Button Styling */
+  .get-started {
+    padding: 10px 20px;
+    background-color: #2E7D32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .content h1 {
+      font-size: 1.5rem;
+    }
+    .content p {
+      font-size: 0.9rem;
+    }
+    .get-started {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .content h1 {
+      font-size: 1.2rem;
+    }
+    .content p {
+      font-size: 0.8rem;
+    }
+    .get-started {
+      font-size: 0.8rem;
+      padding: 6px 12px;
+    }
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .container {  /* Or your main wrapper class */
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  /* Reset some default browser styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Make the body take up the full viewport width */
+  body {
+    min-height: 100vh;
+    width: 100vw; /* Full width of the viewport */
+    display: flex;
+    flex-direction: column;
+    /* Remove centering */
+  }
+  
+  /* Example of a full-width container */
+  .container {
+    width: 100%; /* Full width of the parent */
+    padding: 20px;
+    background-color: #f0f0f0;
+    /* Add more styles as needed */
+  }
+  
